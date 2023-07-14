@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: -8;
+    padding: 3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.row .right_div {
+    margin-top: 10px;
+    margin-left: -3rem;
+    border-radius: 10px;
+    background-color: #f1d9b2;
+    padding: 30px 40px;
+    height: 830px;
+    width: 570px;
+    border: 7px solid rgb(0, 0, 0);
+}
+
+.row .right_div h2 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 35px;
+    font-weight: 800;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+form input [type=checkbox] {
+    margin-left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+form .label {
+    margin-left: 3px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+form .checkbox {
+    margin-left: 8px;
+}
+
+form .button {
+    margin: 48px auto auto 25rem;
+    margin-right: 150px;
+    border-radius: 15px;
+    color: #000000;
+    background-color: #ff0004;
+    padding: 8px 17px;
+    border: none;
+    cursor: pointer;
+
+}
+
+form .button:hover {
+    transition: 0.4s ease;
+    background-color: #a4eda4;
+    border: 2px solid rgb(14, 140, 0);
+}
+
+.row .left_div {
+    margin-left: 55px;
+    margin-top: 13px;
+    border-radius: 11px;
+    background-color: #e8e5e1;
+    padding: 30px 40px;
+    border: 7px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+
+.row .left_div h2 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 35px;
+    font-weight: 800;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+/******************************* Card CSS  *****************************/
+
+.left_div .card {
+    height: 379px;
+    width: 331px;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(112, 224, 81);
+    margin-left: 58px;
+    margin-bottom: 10rem;
+    transition: margin-right 2s ease-in-out .5s;
+}
+
+.top img {
+    height: 95px;
+    width: 95px;
+    background-color: rgb(255 255 255);
+    border-radius: 50px;
+    position: relative;
+    top: 39px;
+    left: 32px;
+    border: 13px solid rgba(255, 255, 255, 0.2);
+
+}
+
+.name {
+    position: absolute;
+    top: 132px;
+    color: #830101;
+    text-decoration: underline;
+    font-size: 18px;
+    width: 84%;
+    font-weight: 900;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.details {
+    position: absolute;
+    top: 176px;
+    text-transform: capitalize;
+    font-size: 11px;
+    text-emphasis: spacing;
+    margin-left: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.details p {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.details p,
+div {
+    padding-left: 5px;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    margin: -7rem -2rem -7rem 3rem;
+    width: 13%;
+    max-height: auto;
+}
+
+.container {
+    margin-top: 1rem;
+    padding-bottom: 3rem;
+    border: 2px solid black;
+    background-color: #423919;
+}
+.skill {
+    color: #e8e5e1;
+}
